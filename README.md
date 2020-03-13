@@ -1,6 +1,6 @@
 # Nuxt-App
 
-> My geometric Nuxt.js project
+> My bolg Nuxt.js project
 
 ## Build Setup
 
