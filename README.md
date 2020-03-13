@@ -1,6 +1,6 @@
 # Nuxt-App
 
-> My bolg Nuxt.js project
+> My Bolg Nuxt.js project
 
 ## Build Setup
 
