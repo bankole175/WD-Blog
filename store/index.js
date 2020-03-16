@@ -55,7 +55,7 @@ const createStore = () => {
                     ...post,
                     updatedDate: new Date()
                 }
-                return axios.post(process.env.baseUrl + '/posts.json', createdPost)
+                return axios.post(process.env.baseUrl + '/posts.json?auth=' + vuexContext.state.token, createdPost)
                 .then(result => {
                     vuexContext.commit('addPost', {...createdPost, id: result.data.name})
                 })
